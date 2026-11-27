@@ -18,7 +18,7 @@ class BuildSetupTest {
     @DisplayName("SETUP-02.AC3: tests run on Java 21 or newer")
     void testsRunOnJava21OrNewer() {
         int feature = Runtime.version().feature();
-        assertTrue(feature >= 99, // <<< Deliberately changing the value to mimic faulty code
+        assertTrue(feature >= 21, // <<< Fixed the value back to 21, finalizing the CI test
                 () -> "Expected Java 21 or newer, but the tests ran on Java " + Runtime.version());
     }
 }
