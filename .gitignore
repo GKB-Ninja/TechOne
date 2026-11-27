@@ -1,0 +1,18 @@
+# Maven build output
+target/
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets (never commit these; commit a *.example file instead)
+.env
+*.local.properties
