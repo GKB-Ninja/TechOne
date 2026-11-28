@@ -79,7 +79,8 @@ Record notable runs here: the controlled exercise, and every genuine failure on 
 
 | Date | PR / run link | Commit | Result | Genuine or controlled | Cause | Fix / follow-up |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| 2026-11-28 | [PR #24 run](https://github.com/GKB-Ninja/TechOne/actions/runs/46081071299) | e285157 | Failed | Controlled | Test deliberately changed to require Java 99, so testsRunOnJava21OrNewer failed. | Changed back to Java 21 in the next commit |
+| 2026-11-28 | [PR #24 run](https://github.com/GKB-Ninja/TechOne/actions/runs/46083477894) | 9ebc653 | Passed | Controlled | Undo of the deliberate failure | PR closed without merging; branch kept as evidence |
 
 ## Not in this pipeline yet
 
